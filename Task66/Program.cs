@@ -40,7 +40,7 @@ void Main()
 {
     Console.Clear();
     int firstNumber = Input("Введите первое число");
-    int secondNumber = Input("Введите первое число");
+    int secondNumber = Input("Введите второе число");
     PrintResult(firstNumber, secondNumber);
 }
 
