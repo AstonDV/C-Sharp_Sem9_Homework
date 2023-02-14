@@ -11,13 +11,13 @@ int Input(string text)
     return value;
 }
 
-int LineOfNumbers (int n)
+int LineOfNumbers(int n)
 {
     if (n == 1) return n;
     else
     {
         Console.Write($"{n}, ");
-        return n = LineOfNumbers(n-1);
+        return n = LineOfNumbers(n - 1);
     }
 }
 
@@ -26,7 +26,7 @@ void Main()
     Console.Clear();
     int number = Input("Введите ваше число");
     Console.WriteLine();
-    Console.WriteLine(LineOfNumbers (number));
+    Console.WriteLine(LineOfNumbers(number));
 }
 
 Main();
